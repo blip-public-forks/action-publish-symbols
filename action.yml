@@ -20,5 +20,5 @@ inputs:
     description: The Url of your symbol server (defaults to https://artifacts.dev.azure.com)
     default: 'https://artifacts.dev.azure.com'
 runs:
-  using: 'node20'
+  using: 'node24'
   main: 'dist/index.js'
